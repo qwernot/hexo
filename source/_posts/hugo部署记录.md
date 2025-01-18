@@ -1,11 +1,16 @@
 ---
-abbrlink: 1
+abbrlink: '1'
+categories: []
+date: ''
+tags: []
+title: Hugo部署记录
+updated: '2025-01-18T17:16:07.472+08:00'
 ---
-####  部署准备
+#### 部署准备
 
 1. 根据官网提示[快速入门 |雨 果 (gohugo.io)](https://gohugo.io/getting-started/quick-start/)  选定windows终端
 
- 如果您是 Windows 用户：
+如果您是 Windows 用户：
 
 - 不要使用命令提示符
 - 不要使用 Windows PowerShell
@@ -15,7 +20,7 @@ PowerShell 和 Windows PowerShell [是不同的应用程序](https://learn.micro
 
 2. 本机装好git
 
-####  开始部署
+#### 开始部署
 
 hugo文档有三种部署方式 ，选用Package managers 部署比较简单
 
@@ -27,7 +32,7 @@ winget install Hugo.Hugo.Extended
 
 安装的是hugo的扩展版（Extended），方便以后安装模板。
 
-####  创建站点
+#### 创建站点
 
 运行这些命令以创建具有 [Ananke](https://github.com/theNewDynamic/gohugo-theme-ananke) 主题的 Hugo 站点。
 
@@ -42,9 +47,9 @@ hugo server  ##本地运行服务
 
 通过终端中显示的 URL 查看您的网站。按下可停止 Hugo 的开发服务器。`Ctrl + C`
 
-根据[快速入门 |雨 果 (gohugo.io)](https://gohugo.io/getting-started/quick-start/) 
+根据[快速入门 |雨 果 (gohugo.io)](https://gohugo.io/getting-started/quick-start/)
 
-####  添加文章
+#### 添加文章
 
 向您的网站添加一个新页面。
 
@@ -73,7 +78,7 @@ hugo server -D
 
 通过终端中显示的 URL 查看网站。
 
-####  修改主题
+#### 修改主题
 
 ```html
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke  ##改成想要的主题
@@ -99,7 +104,6 @@ git push -u origin main
 ```
 
 - 运行之后访问 GitHub 仓库。从主菜单中选择“**设置**”>**“页面**” 把 **Source**部分改成GitHub Actions
-
 - 在本地存储库中创建一个空文件。
 
 ```text
@@ -148,7 +152,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb        
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
@@ -170,7 +174,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -196,10 +200,9 @@ jobs:
   git commit -m "add workflow"
   git push -u origin main
   ```
-
 - 从 GitHub 的主菜单中，选择 **Actions** 选择 add workflow
 
-####  后续文章提交
+#### 后续文章提交
 
 在本地写完 运行
 
@@ -208,4 +211,3 @@ git add .
 git commit -m "add first post"  ##first post 就是之前上面创建的第一遍文章
 git push -u origin main
 ```
-
