@@ -15,10 +15,10 @@ menu:
     标签: /tags/ || fas fa-tags
     #分类: /categories/ || fas fa-categories 
   资源合集|| fas fa-tags: 
-    恋爱倒计时: https://love.zmswa.cn/ || fas fa-heart
-    烟花:  http://zmswa.cn/html/yanhua/ || fas fa-anchor
-    选餐: http://zmswa.cn/html/cs/ || fas fa-gamepad
-    GPT: http://gpt.zmswa.cn/ || fas fa-robot
+    恋爱倒计时: https://xmzz.love/ || fas fa-heart
+    烟花:  http://zm.zmswa.xyz/html/yanhua/ || fas fa-anchor
+    选餐: http://zm.zmswa.xyz/html/cs/ || fas fa-gamepad
+    GPT: http://wegpt.icu/ || fas fa-robot
    # 游戏源码: https://code.haiyong.site/ziyuan/game/ || fas fa-anchor
     #编程资料: https://code.haiyong.site/program/ || fas fa-tools
     #ppt模板: https://code.haiyong.site/ziyuan/ppt/ || fas fa-gamepad
@@ -45,11 +45,11 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-weixin: http://zmswa.cn/img/wx.jpg || WX || '#1AAD19'
+  fab fa-weixin: http://zm.zmswa.xyz/img/wx.jpg || WX || '#1AAD19'
   fab fa-github: https://github.com/qwernot || Github || '#24292e'
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=491298200&site=qq&menu=yes || QQ || '#4a7dbe'
   fas fa-envelope: mailto:zm@zmswa.cn || Email || '#24292e'
-  fab fa-tiktok: http://zmswa.cn/img/dy.jpg || TikTok || '#010101'
+  fab fa-tiktok: http://zm.zmswa.xyz/img/dy.jpg || TikTok || '#010101'
   
   
 
