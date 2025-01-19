@@ -1,25 +1,24 @@
 ---
-title: Hexo 博客技巧：添加自定义 html 页面
-date: '2024/01/5 19:00:00'
-comments: 是否开启评论(true or false)
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '61663'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://api.asxe.vip/scenery.php
+date: 2024/01/5 19:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - hexo、html
-abbrlink: 61663
+- hexo、html
+title: Hexo 博客技巧：添加自定义 html 页面
+top_img: https://api.asxe.vip/scenery.php
+updated: '2025-01-19T20:38:15.030+08:00'
 ---
-
 # **前言**
 
 以前收集了很多有趣的 html 特效文件，自己也写过不少，但是这些文件都有一个缺点：只能本地浏览。
 
 很早以前就有一个想法，就是将这些文件部署到网站上供人们随时随地浏览，只是一直没能实现。现在有了自己的博客，正好实现完成这个想法。
-
-
 
 # **具体过程**
 
@@ -77,10 +76,10 @@ hexo 会帮我们把所有 css、js 文件都加到文章里，我们之前跳�
 - css：找到 `index.html` 文件里的语句，如：
 
 ```html
-<link rel="stylesheet" href="css/xxx.css">    
+<link rel="stylesheet" href="css/xxx.css">  
 ```
 
- 然后在 css 文件夹中找到对应的文件 `xxx.css`，复制文件内容，把上面的代码改为：
+然后在 css 文件夹中找到对应的文件 `xxx.css`，复制文件内容，把上面的代码改为：
 
 ```html
 <style> css代码内容 </style>
@@ -92,7 +91,7 @@ hexo 会帮我们把所有 css、js 文件都加到文章里，我们之前跳�
 <script src="js/xxx.js"></script>
 ```
 
- 然后在 js 文件夹中找到对应的文件 `xxx.js`，复制文件内容，把上面的代码改为：
+然后在 js 文件夹中找到对应的文件 `xxx.js`，复制文件内容，把上面的代码改为：
 
 ```html
 <script> js代码内容 </script>
