@@ -1,20 +1,19 @@
 ---
-title:  MarkDown编辑器Typora
-date: '2024/01/22 20:20:00'
-comments: 是否开启评论(true or false)
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 软件
+abbrlink: '61663'
+categories:
+- 软件
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302
+date: 2024/01/22 20:20:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - Markdowm、Typora
-abbrlink: 61663
-
-
+- Markdowm、Typora
+title: MarkDown编辑器Typora
+top_img: https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302
+updated: '2025-01-19T20:40:51.299+08:00'
 ---
-
 ### 软件介绍
 
 Typora中文版是一款Markdown编辑器及阅读器的文本编辑器.Typora破解版风格极简/多种主题/支持macOS,Windows及 Linux,实时预览/图片与文字/代码块/数学公式/图表 目录大纲/文件管理/导入与导出等..
