@@ -1,19 +1,19 @@
 ---
-title: GitHub国内访问
-date: '2024/01/21 14:20:00'
-comments: 是否开启评论(true or false)
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '61663'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://api.asxe.vip/random.php
+date: 2024/01/21 14:20:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - Github、host
-abbrlink: 61663
-
+- Github、host
+title: GitHub国内访问
+top_img: https://api.asxe.vip/random.php
+updated: '2025-01-19T20:35:06.023+08:00'
 ---
-
 # **前言**
 
 ## 一、介绍
@@ -91,8 +91,6 @@ abbrlink: 61663
 # GitHub520 Host End
 ```
 
-
-
 该内容会自动定时更新， 数据更新时间：2024-01-21T14:05:24+08:00
 
 作者源地址：[521xueweihan/GitHub520: :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）](https://github.com/521xueweihan/GitHub520)
@@ -103,8 +101,6 @@ abbrlink: 61663
 199.232.69.194 github.global.ssl.fastly.net
 140.82.114.4 github.com
 ```
-
-
 
 #### 2.1.2 修改 hosts 文件
 
