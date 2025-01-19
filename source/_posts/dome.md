@@ -1,18 +1,19 @@
 ---
-title: Hexo+GitHub 搭建个人博客
-date: '2023/12/29 22:00:00'
-comments: 是否开启评论(true or false)
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '30764'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881
+date: 2023/12/29 22:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - hexo、GitHub
-abbrlink: 30764
+- hexo、GitHub
+title: Hexo+GitHub 搭建个人博客
+top_img: https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881
+updated: '2025-01-19T20:33:09.850+08:00'
 ---
-
 ## 准备工作
 
 安装必要的软件
@@ -41,7 +42,6 @@ https://git-scm.com/
 
 1. 首先需要建立博客文件夹，建议建在非系统盘，例如 `~E:/Hexo/`，那么这个目录就是我们博客的根目录了。
    因为每个人的命名习惯不同，本帖之后会以 [Blogroot] 指代博客根目录。
-
 2. 使用 npm 安装 Hexo, 在 [Blogroot] 路径下右键 ->Git Bash Here, 输入
 
 ```bash
@@ -64,8 +64,6 @@ hexo server
 然后在浏览器中打开 localhost:4000 , 就能看到
 
 [![hello world](https://s2.loli.net/2023/12/31/A3O2fQtZvoUWsDi.png)](https://s2.ax1x.com/2019/04/11/A7DdZq.png)
-
-
 
 ＞通过以上 3 种方式部署 Hexo 博客之后，就拥有了一个最简单的个人博客网站了，下面讲讲博客的简单初始化。
 
@@ -137,8 +135,6 @@ type: "categories"
 hexo new page link
 ```
 
-
-
 打开 `source/link/index.md` 文件，修改如下：
 
 ```markdown
@@ -183,7 +179,6 @@ type: "link"
 hexo new page about
 ```
 
-
 打开 `source/about-me/index.md` 文件，修改如下：
 
 ```markdown
@@ -193,7 +188,5 @@ date: 2022-03-11 13:01:21
 type: "about"
 ---
 ```
-
-
 
 至此，简单的 Hexo 博客框架就完成搭建了
