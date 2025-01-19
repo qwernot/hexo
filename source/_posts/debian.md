@@ -1,20 +1,19 @@
 ---
-title: 新搭建Debian配置
-date: '2024/04/19 22:00:00'
-comments: 是否开启评论(true or false)
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '30764'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://img.paulzzh.com/touhou/random
+date: 2024/04/19 22:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - Debian
-abbrlink: 30764
+- Debian
+title: 新搭建Debian配置
+top_img: https://img.paulzzh.com/touhou/random
+updated: '2025-01-19T20:31:58.011+08:00'
 ---
-
-
-
 ## 切换镜像源
 
 etc/apt/
@@ -30,4 +29,3 @@ etc/apt/
 [设置允许root用户登录SSH_root ssh 登录 执行命令-CSDN博客](https://blog.csdn.net/Magic_Ninja/article/details/102308367)
 
 [docker权限设置：让非root用户可以操作docker--》附带：linux新增用户添加root权限_linux docker 添加用户权限-CSDN博客](https://blog.csdn.net/ak739105231/article/details/107779778)
-
