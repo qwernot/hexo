@@ -45,11 +45,11 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fab fa-weixin: http://zm.zmswa.xyz/img/wx.jpg || WX || '#1AAD19'
+  fab fa-weixin: http://blog.666228.xyz/img/wx.jpg || WX || '#1AAD19'
   fab fa-github: https://github.com/qwernot || Github || '#24292e'
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=491298200&site=qq&menu=yes || QQ || '#4a7dbe'
   fas fa-envelope: mailto:zm@zmswa.cn || Email || '#24292e'
-  fab fa-tiktok: http://zm.zmswa.xyz/img/dy.jpg || TikTok || '#010101'
+  fab fa-tiktok: http://blog.666228.xyz/img/dy.jpg || TikTok || '#010101'
   
   
 
@@ -247,12 +247,12 @@ aside:
       enable: true
       icon: fas fa-gamepad
       text: 划水
-      link: http://zmswa.cn
+      link: http://blog.666228.xyz
   card_announcement:
     enable: true
     content:
       <b><font color="#e66b6d">双</font> <font color="#e66d98">手</font> <font color="#e66cc6">合</font> <font color="#cc6de6">十</font> <font color="#9770e6">成</font> <font color="#6d93e6">为</font> <font color="#6fcde6">自</font> <font color="#72e6b6">己</font> <font color="#72e689">的</font> <font color="#99e670">神</font>, <font color="#cde670">自</font> <font color="#e6df72">己</font> <font color="#e6c073">所</font> <font color="#e6a271">信</font> <font color="#e6796f">念</font> <font color="#e65454">的</font> <font color="#e63333">即</font> <font color="#e62c2c">是</font> <font color="#e60101">信</font> <font color="#e60101">仰</font></b>
-      <p align="center"><img src="http://zmswa.cn/img/8.gif" width="50" alt="mao"></p>
+      <p align="center"><img src="http://blog.666228.xyz/img/8.gif" width="50" alt="mao"></p>
       <p align="center">微信号：HT-T-TH</p>
       <p align="center">QQ号：491298200</p>
   card_anim:
@@ -665,7 +665,7 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(http://blog.zmswa.xyz/img/d3.jpg)
+background: url(http://blog.666228.xyz/img/d3.jpg)
 # Footer Background
 footer_bg: transparent
 
