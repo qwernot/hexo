@@ -4,15 +4,15 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://img.paulzzh.com/touhou/random
+cover: https://api.gumengya.com/Api/DmImg?format=image
 date: 2024/04/19 22:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - Debian
 title: 新搭建Debian配置
-top_img: https://img.paulzzh.com/touhou/random
-updated: '2025-01-19T20:31:58.011+08:00'
+top_img: https://api.gumengya.com/Api/DmImg?format=image
+updated: '2025-01-19T20:43:42.218+08:00'
 ---
 ## 切换镜像源
 
