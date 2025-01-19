@@ -1,19 +1,19 @@
 ---
-title:  Git超时解决
-date: '2024/1/17 18:00:00'
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-comments: 是否开启评论(true or false)
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '22689'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: https://api.mtyqx.cn/tapi/random.php
+date: 2024/1/17 18:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - git,hexo
-abbrlink: 22689
-
+- git,hexo
+title: Git超时解决
+top_img: https://api.mtyqx.cn/tapi/random.php
+updated: '2025-01-19T20:34:14.419+08:00'
 ---
-
 在写完一天的代码后，我像往常一样进行了hexo d
 
 原本应该在几秒钟上传成功，但是却异常的慢，，这时突然出现一个错误：
@@ -143,7 +143,6 @@ hexo clean && hexo g && hexo d
 - 浏览器进入github.com
 - 登陆github -> "+" ->settings
 - 取消邮箱选项
-
 - 重新提交
 
 ```shell
