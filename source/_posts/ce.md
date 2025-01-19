@@ -1,18 +1,19 @@
 ---
-title: Hexo Butterfly主题美化
-date: '2023/12/31 22:00:00'
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-comments: 是否开启评论(true or false)
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '28011'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+cover: http://www.98qy.com/sjbz/api.php
+date: 2023/12/31 22:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - hexo、GitHub、Butterfly
-abbrlink: 28011
+- hexo、GitHub、Butterfly
+title: Hexo Butterfly主题美化
+top_img: http://www.98qy.com/sjbz/api.php
+updated: '2025-01-19T20:28:08.118+08:00'
 ---
-
 ## 代码样式
 
 > 代码块中的所有功能只适用于 Hexo 自带的代码渲染。如果使用第三方的渲染器，不一定会有效
@@ -50,15 +51,16 @@ highlight_copy: true
 
 ## 顶部图
 
-| 配置             | 解释                                                         |
-| ---------------- | ------------------------------------------------------------ |
-| index_img        | 主页的 top_img                                               |
+
+| 配置             | 解释                                                                |
+| ---------------- | ------------------------------------------------------------------- |
+| index_img        | 主页的 top_img                                                      |
 | default_top_img  | 默认的 top_img，当页面的 top_img 没有配置时，会显示 default_top_img |
-| archive_img      | 归档页面的 top_img                                           |
-| tag_img          | tag 子页面 的 默认 top_img                                   |
-| tag_per_img      | tag 子页面的 top_img，可配置每个 tag 的 top_img              |
-| category_img     | category 子页面 的 默认 top_img                              |
-| category_per_img | category 子页面的 top_img，可配置每个 category 的 top_img    |
+| archive_img      | 归档页面的 top_img                                                  |
+| tag_img          | tag 子页面 的 默认 top_img                                          |
+| tag_per_img      | tag 子页面的 top_img，可配置每个 tag 的 top_img                     |
+| category_img     | category 子页面 的 默认 top_img                                     |
+| category_per_img | category 子页面的 top_img，可配置每个 category 的 top_img           |
 
 修改主题配置文件 `_config.butterfly.yml`
 
@@ -225,8 +227,6 @@ busuanzi:
   site_pv: true
   page_pv: true
 ```
-
-
 
 ### 运行时间
 
@@ -426,4 +426,3 @@ hexo server
     bottom:
       - <div class="aplayer no-destroy" data-id="5183531430" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
 ```
-
