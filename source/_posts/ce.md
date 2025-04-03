@@ -4,15 +4,13 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: http://www.98qy.com/sjbz/api.php
 date: 2023/12/31 22:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - hexo、GitHub、Butterfly
 title: Hexo Butterfly主题美化
-top_img: http://www.98qy.com/sjbz/api.php
-updated: '2025-01-19T20:28:08.118+08:00'
+updated: '2025-04-03T09:02:33.681+08:00'
 ---
 ## 代码样式
 
