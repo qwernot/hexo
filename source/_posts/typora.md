@@ -4,15 +4,13 @@ categories:
 - 软件
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302
 date: 2024/01/22 20:20:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - Markdowm、Typora
 title: MarkDown编辑器Typora
-top_img: https://v2.xxapi.cn/api/randomAcgPic?type=pc&return=302
-updated: '2025-01-19T20:40:51.299+08:00'
+updated: '2025-04-03T09:04:43.562+08:00'
 ---
 ### 软件介绍
 
