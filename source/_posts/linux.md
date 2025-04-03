@@ -4,15 +4,13 @@ categories:
 - 学习路线
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://www.loliapi.com/acg/
 date: 2024/1/10 16:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - Linux
 title: Linux学习路线
-top_img: https://www.loliapi.com/acg/
-updated: '2025-01-19T20:39:00.994+08:00'
+updated: '2025-04-03T09:05:12.595+08:00'
 ---
 # Linux 学习路线
 
