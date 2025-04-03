@@ -4,15 +4,13 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://api.asxe.vip/scenery.php
 date: 2024/01/5 19:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - hexo、html
 title: Hexo 博客技巧：添加自定义 html 页面
-top_img: https://api.asxe.vip/scenery.php
-updated: '2025-01-19T20:38:15.030+08:00'
+updated: '2025-04-03T09:05:42.624+08:00'
 ---
 # **前言**
 
