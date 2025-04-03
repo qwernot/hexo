@@ -4,15 +4,13 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881
 date: 2023/12/29 22:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - hexo、GitHub
 title: Hexo+GitHub 搭建个人博客
-top_img: https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E5%8A%A8%E6%BC%AB%E7%BB%BC%E5%90%881
-updated: '2025-01-19T20:33:09.850+08:00'
+updated: '2025-04-03T09:03:57.884+08:00'
 ---
 ## 准备工作
 
