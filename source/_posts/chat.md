@@ -1,20 +1,18 @@
 ---
-title:  利用 API 自己搭建一个 ChatGPT 网站
-date: '2024/2/08 17:00:00'
-top_img: 'https://t.mwm.moe/fj'
-cover: 'https://t.mwm.moe/fj'
-comments: 是否开启评论(true or false)
-no_word_count: true <!-- 关闭字数统计 -->
-reward: true <!-- 当前文章是否开启打赏 -->
-copyright: true <!-- 当前文章是否开启版权声明 -->
-categories: 实用技巧
+abbrlink: '28011'
+categories:
+- 实用技巧
+comments: 是否开启评论(true or false)
+copyright: true <!-- 当前文章是否开启版权声明 -->
+date: 2024/2/08 17:00:00
+no_word_count: true <!-- 关闭字数统计 -->
+reward: true <!-- 当前文章是否开启打赏 -->
 tags:
-  - openai
-  - ChatGPT
-abbrlink: 28011
-
+- openai
+- ChatGPT
+title: 利用 API 自己搭建一个 ChatGPT 网站
+updated: '2025-04-03T09:03:06.952+08:00'
 ---
-
 ## 搭建背景：
 
 用过 ChatGPT 的朋友都知道，官方网站非常喜欢宕机。
