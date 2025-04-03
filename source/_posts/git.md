@@ -4,15 +4,13 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://api.mtyqx.cn/tapi/random.php
 date: 2024/1/17 18:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - git,hexo
 title: Git超时解决
-top_img: https://api.mtyqx.cn/tapi/random.php
-updated: '2025-01-19T20:34:14.419+08:00'
+updated: '2025-04-03T09:05:57.282+08:00'
 ---
 在写完一天的代码后，我像往常一样进行了hexo d
 
