@@ -4,15 +4,13 @@ categories:
 - 实用技巧
 comments: 是否开启评论(true or false)
 copyright: true <!-- 当前文章是否开启版权声明 -->
-cover: https://imgapi.xl0408.top/index.php
 date: 2024/02/02 22:00:00
 no_word_count: true <!-- 关闭字数统计 -->
 reward: true <!-- 当前文章是否开启打赏 -->
 tags:
 - Cloudflare
 title: CNAME解析至cf：分流解析cloudflare处理国外请求
-top_img: https://imgapi.xl0408.top/index.php
-updated: '2025-01-19T20:28:41.574+08:00'
+updated: '2025-04-03T09:03:32.124+08:00'
 ---
 域名接入cloudflare
 此处不再赘述如何创建cloudflare账号，在cloudflare官网创建好账号后
