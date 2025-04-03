@@ -4,7 +4,7 @@ categories: []
 date: '2025-02-02T13:06:10.371334+08:00'
 tags: []
 title: 更改WordPress网站URL四种方法
-updated: '2025-02-02T13:06:23.331+08:00'
+updated: '2025-04-03T09:07:39.004+08:00'
 ---
 [WordPress](https://www.wordpress.la/)地址和站点地址是非常重要的字段，因为它们是引用网站到互联网上的地址，以及网站文件的位置。本文将分享四种不同的方法，来轻松更改WordPress网站URL。首先我们来了解下为什么要更改WordPress网站URL?
 
@@ -48,7 +48,7 @@ WordPress地址和站点地址通常是相同的。
 
 建议无法访问其WordPress网站管理区域的用户使用此方法。
 
-使用FTP客户端连接到WordPress网站，然后转到/ wp-content / themes / your-theme-folder 
+使用FTP客户端连接到WordPress网站，然后转到/ wp-content / themes / your-theme-folder
 
 找到functions.php文件，并使用纯文本编辑器(如Notepad或TextEdit)对其进行编辑。在底部添加以下代码：
 
